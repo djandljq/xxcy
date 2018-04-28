@@ -1,0 +1,156 @@
+.home {
+  &_banners {
+    width: 7.5rem;
+    height:3.82rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &_links {
+    padding-top: 0.24rem;
+    font-size: 0.28rem;
+    text-align: center;
+    width:7.5rem;
+    height:2.1rem;
+    background-color: #ffffff;
+    img{
+      margin: 0 auto;
+      text-align: center;
+      width: 0.72rem;
+      height: 0.62rem;
+    }
+    p{margin-top:0.26rem;}
+  }
+  &_list {
+    &_title {
+      margin-top: 0.1rem;
+      margin-bottom: 0;
+    }
+    &_content {
+      &_price {
+        color: #F67777;
+        font-size: 0.32rem;
+      }
+      &_sale {
+        font-size: 0.24rem;
+      }
+    }
+  }
+  .product_name{
+      padding-left: 0.2rem;
+      h3{
+          font-size:0.3rem;
+          font-weight: 500;
+          color: #555555;
+      }
+      p{
+          font-size: 0.12rem;
+          color: #aaaaaa;
+      }
+  }
+  
+  //-------礼盒展示-------
+  .gift_box{
+      width: 100%;
+      height: 2.96rem;
+      display: flex;
+     .gift_box_left{
+         width: 50%;
+         position: relative;
+         img{
+             width: 98%;
+             height: 100%;
+             display: block;
+         }
+         p{
+             position: absolute;
+             top: 40%;
+             left:11%;
+             background: rgba(0,0,0,.5);
+             color: #fff;
+             padding:0.1rem 0.18rem;
+             font-size: 0.28rem;
+         }
+     }
+     .gif_box_right{
+         :nth-child(1){
+                  margin-bottom: 0.1rem;
+              }
+         .right_top{
+              position: relative;
+              text-align: right;
+              height: 1.44rem;
+              img{
+                  text-align: right;
+                  display: inline-block;
+              }
+             p{
+               position: absolute;
+               top: 32%;
+               left: 14%;
+               background: rgba(0,0,0,.5);
+               color: #fff;
+               padding:0.1rem 0.18rem;
+               font-size: 0.28rem;  
+             }
+         }
+     } 
+  }
+  
+  //-------热销商品-------
+  .selling{
+      height: 0.1rem;
+      border-top: 0.01rem solid #e2e2e2;
+      margin:0.44rem 0.51rem 0.36rem 0.41rem;
+      box-sizing: border-box;
+      position: relative;
+      span{
+          display: inline-block;
+          background: #ffffff;
+          padding: 0.1rem 0.3rem;
+          font-size: 0.28rem;
+          color: #555555;
+          position: absolute;
+          top: -0.3rem;
+          left: 37%;
+      }
+  }
+  .yd-list-title{
+    height: 0.5rem;  
+    font-size: 0.28rem;
+    font-weight: 500;
+    color: #676767;
+    text-align: left;
+  }
+  .demo-list-price{
+      color:#fe6e6e ;
+      font-size: 0.36rem;
+      em{
+          font-size: 0.24rem;
+      }
+  }
+  .sold{
+      font-size: 0.2rem;
+  }
+  .introduce{
+      width: 2.91rem;
+      font-size: 0.2rem;
+      color: #aaaaaa;
+      display: inline-block;
+  }
+  .last_item {
+    margin-bottom: 0.2rem;
+  }
+  &_helper{
+    width: 100%;
+    height: 1rem;
+    img{
+        width:0.7rem ;
+        height: 0.7rem;
+        display: block;
+    }
+  }
+  
+}
+

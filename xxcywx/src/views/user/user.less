@@ -1,0 +1,53 @@
+.user {
+    position: relative;
+  &_info {
+    position: relative;  
+    margin-bottom: 0.1rem;
+    &_avatar {
+        position: absolute;
+        top: 25%;
+        left: 40%;
+        border-radius: 50%;
+        overflow: hidden;
+      img {
+        height: 1.36rem;
+        width: 1.36rem;
+        display: block;
+      }
+    }
+    &_name {
+      width: 100%;  
+      z-index: 30;
+      text-align: center;
+      position: absolute;
+      top: 65%;
+      left:0;
+      span{
+          display: block; 
+      }
+    }
+  }
+  &_navbar{
+      width: 94%;
+      height: 0.88rem;
+      line-height: 0.88rem;
+      background: #FFFFFF;
+      border-radius: 0.05rem;
+      position: absolute;
+      top: 54%;
+      left: 0.2rem;
+      padding-right: 0.05rem;
+      box-sizing: border-box;
+  }
+  &_links{
+    padding-top:2.24rem;
+    font-size: 0.28rem;
+    text-align: center;
+    width:7.5rem;
+    height:2.1rem;
+  }
+  .yd-flexbox-item{
+        font-size: 0.28rem;
+        color: #555555;
+    }
+}

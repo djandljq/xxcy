@@ -1,0 +1,94 @@
+.goods_buy {
+  &_title {
+
+  }
+  &_content {
+    margin-bottom: 1rem;
+    &_address {
+      width: 100%;
+    }
+    &_goods {
+      background-color: #ffffff;
+      &_heard {
+        padding: 0.2rem;
+        text-align: center;
+        border-bottom: 0.01rem solid #efefef;
+      }
+      &_info {
+        height: 2rem;
+        padding: 0.2rem;
+        border-bottom: 0.01rem solid #efefef;
+        &_img {
+          height: 1.6rem;
+          width: 1.8rem;
+          float: left;
+          border: 0.01rem solid #efefef;
+        }
+        &_right {
+          float: left;
+          margin: 0.2rem;
+          line-height: 0.5rem;
+          &_price {
+            color: #F67777;
+          }
+          &_title {
+            color: #333333;
+          }
+        }
+      }
+      &_price {
+        padding: 0.2rem;
+        text-align: right;
+        .total_price {
+          .number {
+            color: #F67777;
+          }
+        }
+        .total_freight {
+          margin-left: 0.2rem;
+          .number {
+            color: #F67777;
+          }
+        }
+      }
+    }
+    &_remark {
+      padding: 0.2rem;
+      margin-top: 0.1rem;
+      background-color: #ffffff;
+      &_heard {
+        color: #555555;
+      }
+      &_value {
+        height: 5rem;
+        width: 100%;
+        padding: 0.2rem;
+        margin-top: 0.1rem;
+        border-radius: 0.1rem;
+        border: 0.02rem solid #efefef;
+        background-color: #efefef;
+      }
+    }
+  }
+  &_submit {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0;
+    border-top: 0.01rem solid #efefef;
+    .price {
+      color: #F67777;
+      font-weight: bold;
+    }
+    .button {
+      color: #FFFFFF;
+      width: 4rem;
+      text-align: center;
+      line-height: 1rem;
+      font-size: 0.35rem;
+      font-weight: bold;
+      margin-right: -0.23rem;
+      background-color: #FF7D00;
+    }
+  }
+}

@@ -1,0 +1,139 @@
+.cart{
+    &_nullYe{
+        display: none;
+            &_image{
+            width:3.8rem;
+            height: 3.8rem;
+            margin: 1.2rem auto 0.6rem;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        &_null{
+            font-size: 0.36rem;
+            color: #aaaaaa;
+            text-align: center;
+        }
+        &_stroll{
+            width: 3.9rem;
+            text-align: center;
+            font-size:0.36rem;
+            color: #fff;
+            background: #ff3638;
+            border-radius: 0.08rem;
+            padding:0.23rem 0;
+            margin: 0.64rem auto 0;
+        }
+    }
+    &_showYe{
+        &_address{
+        padding-left: 0.31rem;
+            p{
+                font-size: 0.28rem;
+                color: #333333;
+                padding: 0.06rem 0 0.08rem;
+            }
+        }
+        &_cell{
+            margin-bottom:0.11rem;
+        }
+        .details{
+            
+            margin-bottom: 0.12rem;
+            overflow: hidden;
+            &_price{
+                color: #fe6e6e;
+                font-size: 0.36rem;
+                margin-top: 0.3rem;
+                display: inline-block;
+            }
+            .yd-spinner{
+                height: 0.5rem;
+                margin-top: 0.21rem;
+                border-radius: 0.13rem;
+                float:right;
+            }
+            .yd-checklist{
+                border-bottom: none;
+            }
+            .yd-checklist-item{
+                padding:0.23rem 0 0.17rem 0;
+                margin-bottom: 0.12rem;
+            }
+           
+        }
+        .payment{
+            margin-top: 0.16rem;
+            background: #fff;
+            overflow: hidden;
+            margin-bottom: 2rem;
+            p{
+                width:50%;
+                float: left;
+                font-size: 0.32rem;
+                color: #555555;
+                padding: 0.25rem 0 0 0.24rem;
+            }
+            &_weixin{
+                width: 50%;
+                float: left;
+                padding: 0.25rem 0.22rem 0 0;
+                text-align: right;
+                overflow: hidden;
+                &_radio{
+                    width: 2.2rem;
+                    float: left;
+                }
+                span{
+                    font-size: 0.3rem;
+                    color: #555555;
+                    display: inline-block;
+                    margin-left: 0.1rem;
+                }
+            }
+            .yd-checkbox{
+                padding-right: 0;
+                padding-top: 0.02rem;
+                box-sizing: border-box;
+            }
+        }
+    }
+    .choice{
+        width: 100%;
+        padding:0.15rem 0 0.19rem 0.24rem;
+        background: #fff;
+        overflow: hidden;
+        position: fixed;
+        left: 0;
+        bottom: 1rem;
+        z-index: 10;
+        .yd-checkbox{
+            float: left;
+            color: #555555;
+        }
+        .total{
+            width: 55%;
+            float: left;
+            text-align: center;
+            font-size: 0.32rem;
+            color: #555555;
+            &_prict{
+                color: #fe6e6e;
+            }
+            &_postage{
+                font-size: 0.24rem;
+                color: #aaaaaa;
+                margin-left: 0.2rem;
+            }
+        }
+        a{
+            color: #fff;
+            font-size: 0.32rem;
+            background:#ff3638;
+            float: left;
+            padding:0.06rem 0.55rem;
+            border-radius: 0.08rem;
+        }
+    }
+}

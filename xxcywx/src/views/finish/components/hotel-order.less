@@ -1,0 +1,207 @@
+.hotel_order {
+  &_title {
+  }
+  &_content {
+    margin-bottom: 1rem;
+    &_harder {
+      background-color: #fcfcfc;
+      box-shadow: 0 0.1rem 0.1rem #efefef;
+      .payment {
+        margin: 0.25rem;
+        height: 0.5rem;
+        line-height: 0.5rem;
+        &_left {
+          float: left;
+          color: #F67777;
+          font-weight: bold;
+          font-size: 0.35rem;
+        }
+        &_right {
+          float: right;
+          color: #555555;
+          width: 5.5rem;
+          font-size: 0.25rem;
+          text-align: right;
+        }
+      }
+    }
+    &_about {
+      margin-top: 0.05rem;
+      background-color: #ffffff;
+      .title {
+        margin: 0.25rem;
+        border-bottom: 0.03rem dashed #36CB9A;
+        &_name {
+          margin-left: 0.1rem;
+          font-weight: bold;
+          font-size: 0.35rem;
+        }
+        &_desc {
+          color: #555555;
+          margin-left: 0.1rem;
+          margin-bottom: 0.1rem;
+          line-height: 0.55rem;
+          font-size: 0.25rem;
+        }
+      }
+      .price {
+        margin: 0.25rem;
+        font-size: 0.3rem;
+        &_total {
+          height: 0.6rem;
+          line-height: 0.6rem;
+          margin-left: 0.1rem;
+          border-bottom: 0.05rem solid #efefef;
+          .left {
+            float: left;
+            color: #555555;
+          }
+          .right {
+            float: right;
+            color: #F67777;
+          }
+        }
+        &_unit {
+          height: 0.6rem;
+          line-height: 0.6rem;
+          margin-left: 0.1rem;
+          .left {
+            float: left;
+            color: #555555;
+          }
+          .right {
+            float: right;
+          }
+        }
+        &_deposit {
+          height: 0.6rem;
+          line-height: 0.6rem;
+          margin-left: 0.1rem;
+          .left {
+            float: left;
+            color: #555555;
+          }
+          .right {
+            float: right;
+          }
+        }
+      }
+    }
+    &_info {
+      .card {
+        color: #666666;
+        font-size: 0.25rem;
+        margin: 0.35rem;
+        background-color: #ffffff;
+        padding: 0.5rem;
+        border-radius: 0.2rem;
+        border: 0.05rem solid #f5f5f5;
+        &_main {
+          &_item {
+            clear: both;
+            margin-bottom: 0.25rem;
+            .left {
+              float: left;
+              width: 2rem;
+              display: inline-block;
+            }
+            .right {
+              width: 3.5rem;
+              display: inline-block;
+            }
+          }
+        }
+        &_hr {
+          margin-top: 0.5rem;
+          margin-bottom: 0.5rem;
+          border: 0.01rem dashed #36CB9A;
+        }
+        &_foot {
+          &_cert {
+            &_name {
+              margin-bottom: 0.2rem;
+            }
+            &_value {
+              color: black;
+              height: 0.6rem;
+              font-size: 0.4rem;
+              margin-bottom: 0.2rem;
+              border-bottom: 0.02rem solid #e8e8e8;
+            }
+            &_action {
+              height: 0.5rem;
+              margin-bottom: 0.2rem;
+              border-bottom: 0.02rem solid #e8e8e8;
+              .cert_state {
+                float: left;
+                color: blue;
+                display: inline-block;
+              }
+              .cert_button {
+                float: right;
+                color: #F67777;
+                padding: 0.02rem 0.05rem 0.02rem 0.05rem;
+                border: 0.01rem solid #F67777;
+                border-radius:0.06rem;
+                display: inline-block;
+              }
+            }
+          }
+          &_item {
+            clear: both;
+            margin-bottom: 0.25rem;
+            .left {
+              float: left;
+              width: 2rem;
+              display: inline-block;
+            }
+            .right {
+              width: 3.5rem;
+              display: inline-block;
+            }
+            .explain {
+              color: #F67777;
+            }
+          }
+        }
+      }
+    }
+    &_user {
+      height: 2rem;
+      line-height: 1rem;
+      background-color: #ffffff;
+      .item {
+        color: #555555;
+        font-size: 0.3rem;
+        .left {
+          float: left;
+          width: 3rem;
+          margin-left: 0.2rem;
+          display: inline-block;
+          .key {
+            color: #000000;
+            font-weight: bold;
+            margin-right: 0.3rem;
+          }
+        }
+        .right {
+          float: right;
+          margin-right: 0.2rem;
+          display: inline-block;
+        }
+      }
+    }
+  }
+  &_button {
+    color: #ffffff;
+    font-weight: bold;
+    line-height: 1rem;
+    text-align: center;
+    font-size: 0.35rem;
+    width: 100%;
+    height: 1rem;
+    position: fixed;
+    bottom: 0;
+    background-color: #FF7D00;
+  }
+}

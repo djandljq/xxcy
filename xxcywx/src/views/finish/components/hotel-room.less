@@ -1,0 +1,182 @@
+.hotel_room {
+  &_title {
+
+  }
+  &_banners {
+    width: 7.5rem;
+    height: 4.3rem;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+  &_msg {
+    background-color: white;
+    padding:.2rem;
+    margin-bottom: .6rem;
+    &_title {
+      font-size:0.36rem;
+      height:0.5rem;
+      color:#333333;
+      font-weight:bold;
+    }
+    &_about {
+      font-size: 0.2rem;
+      color:#333333;
+    }
+    &_price {
+      margin-top: 0.1rem;
+      &_num {
+        float: right;
+        font-size:0.36rem;
+        color: #F67777;
+        font-weight:bold;
+        span {
+          font-size:0.36rem;
+          font-weight:bold;
+        }
+      }
+      &_target {
+        float: left;
+        line-height: 0.2rem;
+        border:0.02rem solid #36cb9a;
+        font-size: 0.1rem;
+        color:#36cb9a;
+        width:auto;
+        display:inline-block !important;
+        display:inline;
+        padding:0.05rem;
+        margin-right:0.1rem;
+      }
+    }
+    &_address{
+      font-size:.2rem;
+      margin-top:.1rem;
+      color:#FF685D;
+    }
+  }
+  &_item {
+    background-color: #ffffff;
+    margin-bottom: 0.6rem;
+    &_title {
+      width: 2.9rem;
+      height: 0.6rem;
+      border-radius:0.3rem;
+      color: #ffffff;
+      text-align: center;
+      font-size: 0.32rem;
+      font-weight: bold;
+      line-height: 0.6rem;
+      margin-top: -0.3rem;
+      background-color: #36CB9A;
+    }
+    &_msg{
+      padding: 0.2rem;
+      &_info{
+        display: inline-block;
+        line-height: 0.5rem;
+        width: 50%;
+        .tags{
+          margin-left: 0.2rem;
+          color: #A9A9A9;
+          font-weight: bold;
+          font-size: .3rem;
+          display: inline-block;
+        }
+      }
+    }
+    &_date{
+      border-top: 1px solid #DDDDDD;
+      border-bottom: 1px solid #DDDDDD;
+      width:100%;
+      height:1rem;
+      font-size: .28rem;
+      margin-top:0;
+      padding:.15rem;
+      &_today{
+        border-right:1px solid #DDDDDD;
+      }
+      &_status{
+        color:#36CB9A;
+      }
+      &_total{
+        color: #A9A9A9;
+      }
+      th{
+        font-weight: bold;
+      }
+    }
+    &_content {
+      font-size: 0.25rem;
+      .content {
+        margin-left: 0.2rem;
+        margin-right: 0.2rem;
+        margin-bottom: 0.1rem;
+        .price_info {
+          width: 5rem;
+          &_title {
+            font-size: 0.28rem;
+            font-weight:bold;
+            margin-bottom: 0.1rem;
+          }
+          &_desc {
+            font-size: 0.20rem;
+            color: #666666;
+            margin-bottom: 0.1rem;
+          }
+          &_tags {
+            .tag {
+              color: #36CB9A;
+              margin-left: 0.06rem;
+            }
+          }
+        }
+        .price_active {
+          padding-left: 0.25rem;
+          &_num {
+            width: 1.5rem;
+            text-align: center;
+            color: #F67777;
+            font-size: 0.32rem;
+            margin-bottom: 0.2rem;
+          }
+          &_button {
+            color: #FFFFFF;
+            background: #F67777;
+            width: 1.5rem;
+            height: 0.4rem;
+            line-height: 0.4rem;
+            text-align: center;
+          }
+        }
+      }
+      .prices {
+        margin-top: 0.3rem;
+        padding-bottom: 0.3rem;
+        border-bottom: 1px solid #efefef;
+      }
+      .prices:last-child {
+        border-bottom: 0;
+      }
+    }
+  }
+  &_submit {
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    margin-bottom: 0;
+    .price {
+      color: #F67777;
+    }
+    .button {
+      color: #FFFFFF;
+      width: 3.5rem;
+      text-align: center;
+      line-height: 1rem;
+      font-size: 0.35rem;
+      font-weight: bold;
+      margin-right: -0.23rem;
+      background-color: #FF7D00;
+    }
+  }
+}

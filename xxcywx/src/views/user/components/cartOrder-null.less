@@ -1,0 +1,214 @@
+body{
+   background: #f7f7f7!important; 
+}
+.cartOrder-null {
+    position: relative;
+    .orderNav{
+        width: 100%;
+        height: 0.88rem;
+        line-height: 0.88rem;
+        background: #fff;
+        display: flex;
+        box-shadow: 0 0.02rem 0.04rem 0 rgba(222,222,222,0.5); 
+        border-radius: 0.08rem ;
+        margin-bottom: 0.07rem;
+        position: fixed;
+        top: 0;
+        left: 0;
+        li{
+            width: 20%;
+            text-align: center;
+            font-size: 0.28rem;
+            color: #555555;
+        }
+    }
+    .active{
+        color: #ff3638 !important;
+    }
+    .cartList{
+        margin-top: 0.95rem;
+    }
+    &_title{
+        overflow: hidden;
+        background: #fff;
+        border-bottom: 0.02rem solid #979797;
+        padding: 0.18rem 0.24rem 0.16rem;
+        p{
+            width: 50%;
+            float: left;
+            font-size:0.24rem;
+            color: #676767;
+        }
+        &_right{
+            text-align: right;
+            color: #FE6E6E !important;
+        }
+    }
+.details{
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 0.2rem;
+  &_image{
+      width: 36%;
+      float: left;
+      padding: 0.27rem 0 0.28rem 0.1rem;
+      img{
+          width: 100%;
+          display: block;
+      }
+  } 
+  &_right{
+      width: 59%;
+      float: left;
+      margin-left: 0.34rem;
+      padding-right: 0.2rem;
+      h3{
+          padding: 0.27rem 0.44rem 0.1rem 0;
+          font-size: 0.32rem;
+          font-weight: 500;
+          color: #555555;
+      }
+      &_prict{
+          &_list{
+              width: 50%;
+              float: left;
+              p{
+                  font-size: 0.4rem;
+                  color: #ff3638;
+              }
+              span{
+                  font-size: 0.24rem;
+                  color: #aaaaaa;
+              }
+          }
+          &_num{
+             width: 50%;
+             float: left;
+             
+          }
+      }
+  }
+  .tuikuan{
+    width: 2.17rem;
+    color: #fff;
+    font-size: 0.32rem;
+    background: #ff3638;
+    border-radius: 0.08rem;
+    padding:0.08rem 0; 
+    display: inline-block;
+    text-align: center;
+    margin-top: 0.2rem;
+ }
+ .delet{
+     background: #fff;
+     color:#ff3638;
+     border: 0.01rem solid #ff3638;
+ } 
+  &_miaoshu{
+      font-size: 0.24rem;
+      color: #ff6268;
+      padding-left: 0.24rem;
+      padding-bottom: 0.25rem;
+      clear: both;
+  }
+  .company{
+      clear: both;
+      margin: 0 0.22rem 0 0.2rem;
+      border-top: 0.01rem solid #e6e6e6;
+      border-bottom:0.01rem solid #e6e6e6;
+      p{
+         font-size: 0.24rem;
+         color: #555555; 
+      }
+      .company-name{
+          padding: 0.1rem 0 0.1rem;
+      }
+      .express-id{
+          padding-bottom: 0.1rem;
+      }
+  }
+  .delete{
+      width: 65%;
+      margin: 0.1rem auto 0;
+      .delete-older{
+          background: #fff;
+          color: #ff3638;
+          border: 0.01rem solid #ff3638;
+          margin-right: 0.26rem;
+      }
+  } 
+} 
+  &_nullYe{
+      display: none;
+            &_image{
+            width:3.8rem;
+            height: 3.8rem;
+            margin: 1.2rem auto 0.6rem;
+            img{
+                width: 100%;
+                display: block;
+            }
+        }
+        &_null{
+            font-size: 0.36rem;
+            color: #aaaaaa;
+            text-align: center;
+        }
+        &_stroll{
+            width: 3.9rem;
+            text-align: center;
+            font-size:0.36rem;
+            color: #fff;
+            background: #ff3638;
+            border-radius: 0.08rem;
+            padding:0.23rem 0;
+            margin: 0.64rem auto 0;
+        }
+    }
+    .yd-btn-block{
+        height: 0.55rem;
+    }
+   .yd-popup-center{
+    border-radius:0.64rem !important;
+    background-color:none !important;
+} 
+    
+    .popup{
+        width: 100%;
+//      height: 5.09rem;
+        background: #fff;
+        border-radius:0.64rem;
+        overflow:hidden;
+        .prompt{
+            margin:0.76rem 0 0.63rem;
+            text-align: center;
+            font-size: 0.36rem;
+            color: #555555;
+        }
+        .delContent{
+            text-align: center;
+            font-size: 0.32rem;
+            color: #555555;
+            margin-bottom: 1.92rem;
+        }
+    }
+    .centerDel{
+        width: 100%;
+        overflow: hidden;
+        .delNo{
+            width: 50%;
+            float: left;
+            padding: 0.17rem 0;
+            text-align: center;
+            color: #fff;
+            background: #494949;
+            .yd-btn-primary{
+                background: none;
+                font-size: 0.36rem;
+            }
+        }
+        .delYes{
+            background: #ff3638;
+        }
+    }
+}

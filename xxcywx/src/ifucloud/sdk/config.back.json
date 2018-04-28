@@ -1,0 +1,12 @@
+{
+  "app_code": "a7cc23626dd4",
+  "app_secret": "147f7b6edc19f24074b272fa050dbe9e",
+  "ams_host": "http://ams.service.ifucloud.com",
+  "brm_host": "http://brm.service.ifucloud.com",
+  "crm_host": "http://crm.service.ifucloud.com",
+  "omc_host": "http://omc.service.ifucloud.com",
+  "pmc_host": "http://pmc.service.ifucloud.com",
+  "img_host": "http://pmc.service.ifucloud.com",
+  "oauth_host": "http://oauth.service.ifucloud.com",
+  "wechat_host": "http://wechat.service.ifucloud.com"
+}
